@@ -14,6 +14,8 @@ Curso de Tomcat
 		- http://tomcat.apache.org/tomcat-8.0-doc/architecture/overview.html
 
 - Configuración Básica
+	- Configuraciones
+		- http://tomcat.apache.org/tomcat-8.0-doc/config/
 	- Server Component (server.xml)
 		- http://tomcat.apache.org/tomcat-8.0-doc/config/server.html
 	- Context Container (context.xml)
