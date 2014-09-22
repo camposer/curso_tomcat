@@ -1,0 +1,30 @@
+﻿Java SE (Standard Edition)
+Java EE (Enterprise Edition)
+	- Especificación Web (WAR -> Web ARchive)
+		- Servlets (CORE)
+		- JSP (JavaServer Pages)
+		- Tag Libs
+	- Especificación EJB (JAR -> Java ARchive)
+		- Sesión (Lógica de Negocio) -> Service
+		- Entidad (Lógica de Persistencia) -> DAO
+		- Mensajería (Lógica de Integración)
+			- Para problemas de tipo Productor-
+
+Las aplicaciones empresariales: EAR (Enterprise ARchive)
+EAR = WAR + JAR
+Servidor de Aplicaciones = Contenedor Web + Contenedor EJB
+
+
+Apache Tomcat es un Contenedor Web/Servlets
+
+Servidores de aplicaciones:
+- Open Source
+	- Glassfish (Oracle)
+	- Geronimo (IBM)
+	- JBoss (Red Hat)
+	- Jetty
+- Propietarios:
+	- Websphere Application Server (WAS)
+	- Weblogic (Oracle)
+	- OC4J (Oracle)
+
