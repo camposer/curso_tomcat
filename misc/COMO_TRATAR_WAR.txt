@@ -1,0 +1,9 @@
+Cómo ver el contenido de un WAR
+===============================
+
+Debería poderse ver con WINRAR o WINZIP. Luego, también se puede utilizar la herramienta
+JAR disponible en el JDK (JDK_HOME/bin).
+
+Listar contenido => jar tvf NOMBRE_JAR.jar 
+Extraer contenido => jar xvf NOMBRE_JAR.jar
+Crear => jar cvf NOMBRE_JAR.jar CONTENIDO1 CONTENIDO2
