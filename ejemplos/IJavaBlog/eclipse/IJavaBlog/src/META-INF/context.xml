@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/IJavaBlog" docBase="IJavaBlog"
+   crossContext="true" reloadable="true" debug="1">
+   
+	<Resource auth="Container" 
+	   driverClassName="org.apache.derby.jdbc.ClientDriver" 
+	   maxActive="20" 
+	   maxIdle="10" 
+	   maxWait="-1" 
+	   name="jdbc/blogbd" 
+	   type="javax.sql.DataSource" 
+	   url="jdbc:derby://localhost:1527/blogbd;create=true" 
+	   username="user"
+	   password="123" />
+</Context>
