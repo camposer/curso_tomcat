@@ -1,0 +1,25 @@
+Desplegar IJavaBlog.war
+
+0.- Descargar el derby y levantar el manejador, ejecutar (doble clic):
+	DERBY_HOME/bin/startNetworkServer.bat
+
+1.- Verificar que el tomcat se está ejecutando
+	- A través del menú de servicios, o
+	- A través del menú de configuraciones de Tomcat, o
+	- A través de telnet o netcat
+
+2.- Descargar el fichero IJavaBlog.war del repositorio: 
+	curso_tomcat/ejemplos/IJavaBlog/war 
+	
+3.- Copiar el fichero IJavaBlog.war dentro de la carpeta: 
+	CATALINA_HOME/webapps
+	
+4.- Verficar el autoDeploy
+
+5.- Ejecutar en el navegador:
+	http://localhost:8080/IJavaBlog/
+	
+6.- Observar los siguientes ficheros dentro del proyecto (IJavaBlog)
+	WEB-INF/web.xml
+	src/META-INF/persistence.xml
+	
