@@ -1,0 +1,10 @@
+1.- Desplegar la aplicación IJavaBlog.war en el Tomcat valiéndose
+de las opciones de unpackWars=true y autoDeploy=true del Host.
+Es decir, copiar el WAR directamente en la carpeta 
+CATALINA_HOME/webapps
+
+2.- Desplegar la aplicación IJavaBlog.war en el Tomcat 
+utilizando la manager-gui
+
+3.- Desplegar la aplicación IJavaBlog.war en el Tomcat 
+utilizando la manager-script
