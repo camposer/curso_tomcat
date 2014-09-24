@@ -45,3 +45,6 @@ Curso de Tomcat
 		- http://visualvm.java.net/
 	- TomcatProbe
 		- http://java-source.net/open-source/profilers/tomcatprobe
+
+- DataSources
+	- http://docs.oracle.com/javase/tutorial/jdbc/basics/sqldatasources.html
