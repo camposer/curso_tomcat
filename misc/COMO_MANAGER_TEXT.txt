@@ -10,3 +10,4 @@ OK - Undeployed application at context path /IJavaBlog
 
 NOTA: 
   - Previamente se debemos tener el usuario admin con contraseña admin en el fichero tomcat-users.xml con permiso de manager-script
+  - cURL se puede descargar de aquí: http://www.confusedbycode.com/curl/curl-7.38.0-win64-local.msi (64 bits)
