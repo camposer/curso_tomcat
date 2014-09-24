@@ -2,18 +2,18 @@ Curso de Tomcat
 ===============
 
 - Arquitecturas Web
-	- Java Est醤dar
+	- Java Est谩ndar
 	- Java Empresarial
 
-- Arquitectura e instalaci髇
-	- Cu醠 versi髇 
+- Arquitectura e instalaci贸n
+	- Cu谩l versi贸n 
 		- http://tomcat.apache.org/whichversion.html
-	- Instalaci髇 (32-bit/64-bit Windows Service Installer)
+	- Instalaci贸n (32-bit/64-bit Windows Service Installer)
 		- http://tomcat.apache.org/download-80.cgi
 	- Arquitectura (conceptos)
 		- http://tomcat.apache.org/tomcat-8.0-doc/architecture/overview.html
 
-- Configuraci髇 B醩ica
+- Configuraci贸n B谩sica
 	- Configuraciones
 		- http://tomcat.apache.org/tomcat-8.0-doc/config/
 	- Server Component (server.xml)
@@ -23,14 +23,16 @@ Curso de Tomcat
 	- Realms (tomcat-users.xml)
 		- http://tomcat.apache.org/tomcat-8.0-doc/realm-howto.html
 
-- Despliegue y Administraci髇 de aplicaciones
+- Despliegue y Administraci贸n de aplicaciones
 	- Manager App (autoDeploy, html y text)
 		- http://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html
 
-- Configuraci髇 avanzada
+- Configuraci贸n avanzada
+- 	- Virtual Hosts
+- 		- http://tomcat.apache.org/tomcat-8.0-doc/virtual-hosting-howto.html
 	- Data Sources (DBCP)
 		- http://tomcat.apache.org/tomcat-8.0-doc/jndi-datasource-examples-how
-	- Configuraci髇 con SSL
+	- Configuraci贸n con SSL
 		- http://tomcat.apache.org/tomcat-8.0-doc/ssl-howto.html
 	- Apache JServ Protocol (AJP)
 		- http://tomcat.apache.org/tomcat-8.0-doc/config/ajp.html
@@ -38,8 +40,11 @@ Curso de Tomcat
 - Uso de Clusters
 	- http://tomcat.apache.org/tomcat-8.0-doc/cluster-howto.html
 
-- Optimizaci髇 de aplicaciones (profilers) y del int閞prete de Java
+- Optimizaci贸n de aplicaciones (profilers) y del int茅rprete de Java
 	- Visual VM
 		- http://visualvm.java.net/
 	- TomcatProbe
 		- http://java-source.net/open-source/profilers/tomcatprobe
+
+- DataSources
+	- http://docs.oracle.com/javase/tutorial/jdbc/basics/sqldatasources.html
