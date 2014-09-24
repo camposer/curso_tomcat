@@ -1,10 +1,17 @@
 1.- Desplegar la aplicación IJavaBlog.war en el Tomcat valiéndose
-de las opciones de unpackWars=true y autoDeploy=true del Host.
-Es decir, copiar el WAR directamente en la carpeta 
-CATALINA_HOME/webapps
+de las opciones unpackWars=true y autoDeploy=true del Host.
+Es decir, copiar el WAR en la carpeta CATALINA_HOME/webapps
+(mientras el Tomcat está arriba)
 
 2.- Desplegar la aplicación IJavaBlog.war en el Tomcat 
 utilizando la manager-gui
 
 3.- Desplegar la aplicación IJavaBlog.war en el Tomcat 
 utilizando la manager-script
+
+4.- Ahora agregar filtros para que el manager-script 
+sólo puede ser ejecutado desde localhost
+http://tomcat.apache.org/tomcat-8.0-doc/config/host.html#Request_Filters
+
+NOTA:
+	- Replegar el proyecto cuando haga falta
