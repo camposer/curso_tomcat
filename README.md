@@ -28,8 +28,8 @@ Curso de Tomcat
 		- http://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html
 
 - Configuración avanzada
-- 	- Virtual Hosts
-- 		- http://tomcat.apache.org/tomcat-8.0-doc/virtual-hosting-howto.html
+ 	- Virtual Hosts
+ 		- http://tomcat.apache.org/tomcat-8.0-doc/virtual-hosting-howto.html
 	- Data Sources (DBCP)
 		- http://tomcat.apache.org/tomcat-8.0-doc/jndi-datasource-examples-how
 	- Configuración con SSL

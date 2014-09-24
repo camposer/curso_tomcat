@@ -3,3 +3,13 @@
 - Observar la ejecución
 
 2.- Mover el DataSource a un nivel superior
+	- Eliminar el contexto local (META-INF/context.xml)
+	- Agregar el Resource (DataSource) al fichero 
+	CATALINA_HOME/conf/context.xml
+	- Agregar DERBY_HOME/lib/derbyclient.jar a CATALINA_HOME/lib
+	
+	NOTAS:
+		- El próximo nivel sería como un GlobalResource
+		- Si estamos trabajando con otro RDBMS se debe copiar
+		el driver JDBC correspondiente.
+	
