@@ -1,0 +1,4 @@
+Para agregar un contexto dependiente del proyecto se debe agregar
+el fichero META-INF/context.xml dentro de la raíz del WAR
+
+Ver: http://tomcat.apache.org/tomcat-8.0-doc/config/context.html
