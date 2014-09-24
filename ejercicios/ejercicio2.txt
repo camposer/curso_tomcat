@@ -1,0 +1,5 @@
+1.- Desplegar el proyecto IJavaBlog.war que utiliza DataSource.
+- Observar el log (catalina-*.log)
+- Observar la ejecución
+
+2.- Mover el DataSource a un nivel superior
