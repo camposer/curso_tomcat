@@ -1,0 +1,12 @@
+Para desplegar:
+
+$ curl -T ~/Desktop/IJavaBlog.war "http://admin:admin@localhost:8080/manager/text/deploy?path=/IJavaBlog&update=true"
+OK - Deployed application at context path /IJavaBlog
+
+Para replegar:
+
+$ curl "http://admin:admin@localhost:8080/manager/text/undeploy?path=/IJavaBlog"
+OK - Undeployed application at context path /IJavaBlog
+
+NOTA: 
+  - Previamente se debemos tener el usuario admin con contraseña admin en el fichero tomcat-users.xml con permiso de manager-script
