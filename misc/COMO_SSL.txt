@@ -11,7 +11,7 @@ COMO CONFIGURAR SSL EN TOMCAT
 <Connector 
            port="8443" maxThreads="200"
            scheme="https" secure="true" SSLEnabled="true"
-           keystoreFile="${user.home}/.keystore" keystorePass="changeit"
+           keystoreFile="C:/Users/USUARIO/.keystore" keystorePass="PASSWORD"
            clientAuth="false" sslProtocol="TLS"/>
 
 NOTA: Si omite el keystoreFile utilizará por defecto ${user.home}/.keystore. Puede cambiarlo a cualquiera de los que estamos utilizando ahora
