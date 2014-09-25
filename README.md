@@ -32,6 +32,7 @@ Curso de Tomcat
  		- http://tomcat.apache.org/tomcat-8.0-doc/virtual-hosting-howto.html
 	- Data Sources (DBCP)
 		- http://tomcat.apache.org/tomcat-8.0-doc/jndi-datasource-examples-howto.html
+		- http://docs.oracle.com/javase/tutorial/jdbc/basics/sqldatasources.html
 	- Configuración con SSL
 		- http://tomcat.apache.org/tomcat-8.0-doc/ssl-howto.html
 	- The Apache Tomcat Connector - Webserver HowTo
@@ -46,5 +47,6 @@ Curso de Tomcat
 	- TomcatProbe
 		- http://java-source.net/open-source/profilers/tomcatprobe
 
-- DataSources
-	- http://docs.oracle.com/javase/tutorial/jdbc/basics/sqldatasources.html
+- Securización e instalación en producción
+	- PENDIENTE
+	
