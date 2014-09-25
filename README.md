@@ -34,8 +34,8 @@ Curso de Tomcat
 		- http://tomcat.apache.org/tomcat-8.0-doc/jndi-datasource-examples-howto.html
 	- Configuración con SSL
 		- http://tomcat.apache.org/tomcat-8.0-doc/ssl-howto.html
-	- Apache JServ Protocol (AJP)
-		- http://tomcat.apache.org/tomcat-8.0-doc/config/ajp.html
+	- The Apache Tomcat Connector - Webserver HowTo
+		- http://tomcat.apache.org/connectors-doc/webserver_howto/apache.html
 
 - Uso de Clusters
 	- http://tomcat.apache.org/tomcat-8.0-doc/cluster-howto.html
