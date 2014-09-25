@@ -1,0 +1,3 @@
+Descargar:
+	- https://bitnami.com/stack/wamp
+	- http://apache.rediris.es/tomcat/tomcat-connectors/jk/binaries/windows/tomcat-connectors-1.2.40-windows-x86_64-httpd-2.4.x.zip

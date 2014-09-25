@@ -1,0 +1,32 @@
+SSL - Secure Socket Layer
+===
+
+Existen 3 tipos de algoritmos de cifrado:
+1. Simétricos (DES, 3DES, AES, Blowfish)
+- Ambos extremos de la comunicación comparten un secreto (clave)
+- Los mensajes cifrados con la clave sólo pueden ser descifrados con ella
+
+2. Asimétricos (Diffie-Helman, RSA)
+- El emisor tiene un par de claves, una pública y otra privada
+- Los mensajes cifrados con una de las claves sólo pueden ser descifrados por su par
+
+3. Resumen (Hash) (MD5, SHA1)
+- Son funciones matemáticas que cogen un binario como entrada y producen un conjunto
+de caracteres de tamaño fijo (picadillo o resumen)
+- Verificación de integridad
+
+Certificados digitales (propuesta alternativa)
+- Al usuario se le entregan un par de claves (pública y privada).
+- Coge un mensaje y le aplica una función de resumen.
+- Coge un mensaje y lo cifra con su clave privada.
+- Coge el resumen y el mensaje cifrado y lo envía al destinatario.
+
+ROOT CA (Certificate Authorities)
+- Verisign
+- Etc...
+
+Cuando se comienza la transmisión se realiza el SSL Handshake
+- Intercambiar una clave de sesión
+
+HTTPS = HTTP + SSL = 443 (8443)
+

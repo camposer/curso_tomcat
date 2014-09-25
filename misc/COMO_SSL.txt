@@ -1,0 +1,28 @@
+COMO CONFIGURAR SSL EN TOMCAT
+=============================
+
+-1.- Crear almacen de claves:
+	C:\> keytool -genkey -alias tomcat -keyalg RSA
+
+0.- Verificar que se ha creado el almacén de claves en el HOME del usuario 
+
+1.- Descomentar la etiqueta XML mostrada abajo dentro del archivo $TOMCAT_HOME/conf/server.xml
+
+<Connector 
+           port="8443" maxThreads="200"
+           scheme="https" secure="true" SSLEnabled="true"
+           keystoreFile="${user.home}/.keystore" keystorePass="changeit"
+           clientAuth="false" sslProtocol="TLS"/>
+
+NOTA: Si omite el keystoreFile utilizará por defecto ${user.home}/.keystore. Puede cambiarlo a cualquiera de los que estamos utilizando ahora
+
+2.- Configurar la variable de entorno JAVA_HOME. Debe apuntar a la carpeta donde está el JRE. Por ejemplo:
+	C:\Program files\Java\jdk_7\
+
+3.- Iniciar el tomcat. Debe ejecutar (doble-clic) el fichero: $TOMCAT_HOME/bin/startup.bat
+
+4.- Probar (mirar certificado). Abrir con el navegador: https://localhost:8443
+
+
+
+
