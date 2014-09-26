@@ -51,5 +51,6 @@ Curso de Tomcat
 		- http://java-source.net/open-source/profilers/tomcatprobe
 
 - Securización e instalación en producción
-	- PENDIENTE
+	- Securing tomcat
+		- https://www.owasp.org/index.php/Securing_tomcat
 	
