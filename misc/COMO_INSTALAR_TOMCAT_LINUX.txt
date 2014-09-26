@@ -1,0 +1,8 @@
+1. Descargar el tomcat (zip)
+	- http://tomcat.apache.org/download-80.cgi
+
+2. Instalar el JDK (java-oracle-8)
+	- http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
+	
+3. Instalar el apache2
+	$ apt-get install apache2 libapache2-mod-jk
