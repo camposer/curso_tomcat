@@ -32,3 +32,26 @@ export CATALINA_HOME=/opt/apache-tomcat-8.0.12
 9. Iniciar el Tomcat
 	$ sudo /etc/init.d/tomcat
 	
+10. Configuración del worker (respalda fichero original). 
+Agregar el fichero /etc/libapache2-mod-jk/workers.properties 
+con el siguiente contenido:
+
+ worker.list=server1
+
+ worker.server1.port=8009
+ worker.server1.host=localhost
+ worker.server1.type=ajp13
+
+11. Agregar el punto de montaje al fichero /etc/libapache2-mod-jk/httpd-jk.conf
+	JkMount /manager/* server1
+
+12. Activar el módulo en el VirtualHost. Agregar la directava dentro del VirtualHost
+	JkMountCopy On 
+
+13. Reiniciar apache
+	$ /etc/init.d/apache2 restart
+
+14. Probar. En el navegador introducir la siguiente URL:
+	http://localhost/manager
+	
+NOTA: Agregar usuario admin al tomcat-users.xml
