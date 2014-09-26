@@ -35,11 +35,14 @@ Curso de Tomcat
 		- http://docs.oracle.com/javase/tutorial/jdbc/basics/sqldatasources.html
 	- Configuración con SSL
 		- http://tomcat.apache.org/tomcat-8.0-doc/ssl-howto.html
+
+- Uso de Clusters y JK
 	- The Apache Tomcat Connector - Webserver HowTo
 		- http://tomcat.apache.org/connectors-doc/webserver_howto/apache.html
-
-- Uso de Clusters
-	- http://tomcat.apache.org/tomcat-8.0-doc/cluster-howto.html
+	- Clustering/Session Replication HOW-TO
+		- http://tomcat.apache.org/tomcat-8.0-doc/cluster-howto.html
+	- How to set up a cluster with Tomcat 8, Apache and mod_jk
+		- http://blog.c2b2.co.uk/2014/04/how-to-set-up-cluster-with-tomcat-8.html
 
 - Optimización de aplicaciones (profilers) y del intérprete de Java
 	- Visual VM
