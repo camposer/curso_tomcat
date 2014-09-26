@@ -1,4 +1,4 @@
-1. Descargar el tomcat (zip)
+1. Descargar el Tomcat (zip)
 	- http://tomcat.apache.org/download-80.cgi
 
 2. Instalar el JDK (java-oracle-8)
@@ -6,3 +6,29 @@
 	
 3. Instalar el apache2
 	$ apt-get install apache2 libapache2-mod-jk
+	
+4. Configurar Tomcat
+	$ sudo useradd -d $CATALINA_HOME -M -U -s /sbin/nologin tomcat
+	Donde:
+	- CATALINA_HOME=/opt/apache-tomcat...
+	
+5. Añadir script de inicialización /etc/init.d/tomcat
+#!/bin/sh
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export CATALINA_HOME=/opt/apache-tomcat-8.0.12
+
+/bin/su -s /bin/bash tomcat $CATALINA_HOME/bin/catalina.sh stop
+/bin/su -s /bin/bash tomcat $CATALINA_HOME/bin/catalina.sh start
+
+6. Dar permiso de ejecución al script de inicialización
+	$ sudo chmod +x /etc/init.d/tomcat
+
+7. Crear el enlace simbólico en los scripts de inicio (Graphical multi-user with networking)
+	$ sudo ln -s /etc/init.d/tomcat /etc/rc2.d/S99tomcat
+
+8. Asignar como dueño y grupo tomcat de toda CATALINA_HOME
+	$ sudo chown -R tomcat:tomcat /opt/apache-tomcat-8.0.12/
+	
+9. Iniciar el Tomcat
+	$ sudo /etc/init.d/tomcat
+	
